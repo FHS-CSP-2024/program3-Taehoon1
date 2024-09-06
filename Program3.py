@@ -60,10 +60,9 @@ print("\n I am looking for a job with a salary of",lower,"-",upper,"dollars per 
 x = input("X val: ")
 y = input("Y val: ")
 
-print("X val:", x)
-print("Y val:", y)
+
 print(" ")
 print(x,"+",y,"=",int(int(x)+int(y)))
 print(x,"-",y,"=",int(int(x)-int(y)))
 print(x,"*",y,"=",int(int(x)*int(y)))
-print(x,"/",y,"=",int(int(x)/int(y)))
+print(x,"/",y,"=",int(x)/int(y))
